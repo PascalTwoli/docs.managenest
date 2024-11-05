@@ -91,7 +91,7 @@ The **Rent Tracking** feature helps you monitor rent payments and keep a record 
 
 ---
 
-## 5. Settings
+## 4. Settings
 
 The **Settings** page allows you to customize your preferences, tenant access, and account settings.
 
@@ -112,7 +112,7 @@ The **Settings** page allows you to customize your preferences, tenant access, a
 
 ---
 
-## 6. Support and Help
+## 5. Support and Help
 
 If you encounter issues or have questions, use the **Support** page for assistance.
 
