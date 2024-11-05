@@ -1,14 +1,14 @@
 # ManageNest User Guide
 
 
-Welcome to **ManageNest**! This guide will help you get started with the system, from setting up tenant profiles to tracking payments and managing maintenance requests. Follow the instructions below to make the most of each feature.
+Welcome to **ManageNest**! This guide will help you get started with the system, from setting up tenant profiles to tracking payments. Follow the instructions below to make the most of each feature.
 
 ---
 
 ## Table of Contents
 1. [Getting Started](#1-getting-started)
 2. [Tenant Management](#2-tenant-management)
-3. [Rent Tracking](#3-rent-tracking)
+<!-- 3. [Rent Tracking](#3-rent-tracking) -->
 4. [Maintenance Requests](#4-maintenance-requests)
 5. [Settings](#5-settings)
 6. [Support and Help](#6-support-and-help)
@@ -23,7 +23,7 @@ Welcome to **ManageNest**! This guide will help you get started with the system,
 3. Click **Log In**. If you are logging in for the first time, follow the instructions to set up your password.
 
 ### Dashboard Overview
-- After logging in, you’ll see the **Dashboard**. This is your main navigation hub and gives you an overview of recent activity, upcoming rent due dates, and pending maintenance requests.
+- After logging in, you’ll see the **Dashboard**. This is your main navigation hub and gives you an overview of recent activities and overview of tenants information, payment information/reports and lease information.
 
 ---
 
@@ -32,21 +32,19 @@ Welcome to **ManageNest**! This guide will help you get started with the system,
 The **Tenant Management** feature allows you to create, view, edit, and delete tenant profiles.
 
 ### Adding a New Tenant
-1. Navigate to **Tenant Manager** in the sidebar.
-2. Click **Add New Tenant**.
-3. Fill in the required fields:
-   - **Full Name**
-   - **Phone Number**
-   - **Email Address**
-   - **Lease Start Date**
-   - **Unit/Apartment Number**
+1. Navigate to **Tenants overview** in the sidebar.
+2. Click **Add Tenant**.
+3. Fill in the required fields: Tenant profile information and lease informatiom
+   
+   - **first name**, **last name**, **Phone Number**, **Email Address**, **national id**, **occupation**, **block name**, **unit name** and **move in date**
+   - **security deposit**, **monthly rent**, **prevoius month rent**, **lease start date**, **lease end date**, **lease status**, **property address**, **residence type**, **number of bedrooms**, **number of bathrooms** and **additional terms**.
 4. Click **Save** to add the tenant.
 
 ### Editing Tenant Information
-1. Go to the **Tenant Manager** page.
+1. Go to the **Tenants overview** page.
 2. Select the tenant you wish to edit.
-3. Click **Edit** and update the desired fields.
-4. Click **Save** to confirm changes.
+3. Click on **...** button where you will see more tenant details. From here, scroll to the bottom. Here you will see **Edit Tenant Details** button. Click to  update the desired fields.
+4. Click **Save Changes** to confirm changes.
 
 ### Deleting a Tenant
 1. Locate the tenant profile you want to delete in **Tenant Manager**.
@@ -59,7 +57,7 @@ The **Tenant Management** feature allows you to create, view, edit, and delete t
 The **Rent Tracking** feature helps you monitor rent payments and keep a record of payment history.
 
 ### Viewing Rent Details
-1. Go to **RentPay Manual Tracking** in the sidebar.
+1. Go to **Reports** in the sidebar.
 2. Select a tenant to view their rent payment history, due dates, and outstanding balances.
 
 ### Recording a Payment
@@ -73,7 +71,7 @@ The **Rent Tracking** feature helps you monitor rent payments and keep a record 
 
 ---
 
-## 4. Maintenance Requests
+<!-- ## 4. Maintenance Requests
 
 **Maintenance Requests** allow tenants to submit issues, which you can track and manage through the system.
 
@@ -89,7 +87,7 @@ The **Rent Tracking** feature helps you monitor rent payments and keep a record 
 ### Assigning a Maintenance Task
 1. Open the maintenance request details.
 2. Choose **Assign Task** and select the maintenance worker or team.
-3. Save the assignment to notify the worker.
+3. Save the assignment to notify the worker. -->
 
 ---
 
@@ -104,7 +102,7 @@ The **Settings** page allows you to customize your preferences, tenant access, a
 
 ### Configuring Notifications
 1. In **Settings**, go to **Notifications**.
-2. Toggle options such as **Rent Reminders** and **Maintenance Updates** to enable or disable them.
+2. Toggle options such as **Reminders for upcoming rent due dates** and **Allow grace periods when rent is due** to enable or disable them.
 3. Save your preferences.
 
 ### Managing Tenant Access
